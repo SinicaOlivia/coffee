@@ -2,5 +2,118 @@
   --main-bg-color:darkcyan;
 }
 
+h1, h2, h3{
+  font-family:'fraunces', sans-serif;
+}
 
+.nav{
+  justify-content:center;
+  align-items: center;
+  margin-top:43px;
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  /* align-items:baseline; in cazul in care vrem sa fie la aceeasi baza liniara, dar in proiect nu e. */
+}
+
+.content-container{
+  max-width:1280px;
+}
+
+.nav-bar-wrapper{
+  width:100%;
+  justify-content:space-between;
+}
+
+.logo{
+  height:40px;
+ }
+
+#app-logo{
+  margin-right:8px;
+}
+
+#app-title{
+  color:#333D4B;
+  /* font-family:'fraunces', sans-serif; */
+  line-height:36px;
+  font-size:2em;
+  font-weight:bold;
+}
+
+.row-centered{
+  align-items: center;
+}
+
+.nav-links-container > a{
+  font-weight:bold;
+  font-size: 1em;
+  color:#83888F;
+  line-height: 28px;
+  text-decoration: none;
+  margin-left:32px;
+}
+
+.nav-links-container > a:hover{
+  color:black;
+}
+
+.hero-image{
+  /* background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(all-images/heroimage.jpg); */
+  background-image: url(all-images/heroimage.jpg);
+  background-color:#979797;
+  filter:brightness(90%);
+  height:600px;
+  width:1280px;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+} 
+
+/* .hero-image::after{
+  background-image:url(all-images/Bitmap.jpg);
+} */
+
+.hero-title{
+  font-size:72px;
+  line-height:72px;
+  font-weight:bold;
+}
+.hero-text{
+  /* text-align: left; */
+  position:absolute;
+  top:45%;
+  left:27%;
+  transform: translate(-50%, -50%);
+  color:white;
+  width:40%;
+  line-height:20px;
+  
+}
+
+.primary-button{
+  border:none;
+  outline:0;
+  background-color:#0E8784;
+  /* position:absolute; */
+  width: 217px;
+  height: 56px;
+  color:white;
+  cursor:pointer;
+  text-align:center;
+  border-radius:5px;
+  padding:0 25px;
+  line-height:25px;
+  font-size:1em;
+  font-weight: bold;
+  margin-top:50px;
+}
+
+.primary-button:hover{
+  background-color:#66D2CF;
+}
 
