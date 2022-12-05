@@ -74,10 +74,6 @@ h1, h2, h3{
   position:relative;
 } 
 
-/* .hero-image::after{
-  background-image:url(all-images/Bitmap.jpg);
-} */
-
 .hero-title{
   font-size:72px;
   line-height:72px;
@@ -115,5 +111,39 @@ h1, h2, h3{
 
 .primary-button:hover{
   background-color:#66D2CF;
+}
+
+.hero-image-second{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(all-images/heroimagesecond2.png);
+  filter:brightness(80%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height:450px;
+  width:1280px;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+}
+
+.hero-title-second{
+  font-size:40px;
+  line-height:48px;
+  font-weight:bold;
+}
+
+.hero-image-new{
+  /* background-image:linear-gradient(rgba(0, 0, 0, 0.4)rgba(0, 0, 0, 0.4)), url(all-images/heroimagenew.jpg); */
+  background-image: url(all-images/heroimagenew.jpg);
+  background-color:#A2A2A2;
+  height:450px;
+  width:1280px;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+  filter:brightness(80%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
