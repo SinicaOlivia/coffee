@@ -149,19 +149,21 @@ gjjfj
 }
 
 .section-1 {
-  width: 1111px;
+  width: 1280px;
   height: 524px;
   background-image: url(./all-images/our-collection.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 136px 82px 200px 82px;
+  /* margin: 136px 82px 200px 82px; */
+  margin:0 auto;
   
 }
 
 .expresso {
   width: 256px;
   height: 193px;
+  margin-left:30px;
 }
 
 .section-1-container > h3 {
@@ -191,8 +193,9 @@ gjjfj
 }
 
 .section-2 {
-  width: 1280px;
+  /* width: 1280px; */
   height: 728px; 
+  margin:0 auto;
 }
 
 .section-2-container {
