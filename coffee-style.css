@@ -155,19 +155,13 @@ gjjfj
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 136px 82px 200px 82px;
-  
+  margin:0 auto;  
 }
 
 .expresso {
   width: 256px;
   height: 193px;
-}
-
-#expresso-4 {
-  width: 234.82px;
-  height: 177.48px;
-  margin-top: 15px;
+  margin-left:30px;
 }
 
 .section-1-container > h3 {
@@ -190,6 +184,7 @@ gjjfj
   text-align: center;
   color: #333D4B;
   margin-top: 24px;
+  padding:10px 10px;
 }
 
 .section-1-container {
@@ -197,8 +192,8 @@ gjjfj
 }
 
 .section-2 {
-  width: 1280px;
   height: 728px; 
+  margin:0 auto;
 }
 
 .section-2-container {
