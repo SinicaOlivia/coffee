@@ -288,4 +288,47 @@ gjjfj
   height: 72px;
 }
 
+/* sectiunea mea : Alex Oniga */
+.commitment-container{
+  width: 1110px;
+  height: 520px;
+  margin: 0 auto;
+  margin-top: 190px;
+  display: flex;
+}
+
+.container-left, .container-right{
+  width: 50%;
+  display: flex;
+  align-items:flex-start;
+  flex-wrap: wrap;
+}
+
+.container-picture{
+  width: 445px;
+  height: 520px;
+  margin-right: 125px;
+
+}
+
+.commitment-subtitle{
+  height:48px;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-top: auto;
+}
+
+.commitment-text{
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
 
