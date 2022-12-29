@@ -387,3 +387,45 @@ h1, h2, h3{
   border-radius: 8px;
   margin: 88px 85px 88px 750px;
 }
+
+/* sectiunea headquarters - Oniga Alex */
+.information-list{
+  width: 1045px;
+  display: flex;
+}
+.subtitle{
+  font-family: Fraunces;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-left: 165px;
+}
+
+.contact-info{
+  display: flex;
+  margin-left: 130px;
+  gap: 95px;
+  list-style: none;
+     
+}
+
+.country-name{
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.adress{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333D4B;
+
+}
+
