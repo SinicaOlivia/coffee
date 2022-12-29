@@ -406,7 +406,7 @@ h1, h2, h3{
 .contact-info{
   display: flex;
   margin-left: 130px;
-  gap: 95px;
+  gap:190px;
   list-style: none;
      
 }
