@@ -1,5 +1,7 @@
 :root{
   --main-bg-color:darkcyan;
+  --circle-size:1.7em;
+  --line-height:2px;
 }
 
 h1, h2, h3{
@@ -497,3 +499,77 @@ h1, h2, h3{
     /* margin-left: 135px; */
     margin-left:-10px;
   }
+
+  /* sectiunea how it works din subscribe */
+.page-container{
+  max-width:1280px;
+  background-color:#2C343E;
+  margin: 0 auto;
+  border-radius:10px;
+}
+
+.container{
+  width:1048px;
+  display: flex; 
+  gap: 8px;
+  position: relative;
+  margin:10%;
+  top:50px;
+  height:653px;
+}
+
+.container:before,
+.container:after {
+  content: '';
+  position: absolute;
+  top: calc(var(--circle-size) / 2 - var(--line-height) / 2);
+  display: block;
+  height: var(--line-height);
+  background-color: #FDD6BA; 
+}
+
+.container:before {
+  left: calc(var(--circle-size) / 2);
+  right: 0;
+  width: calc(100% / 3 * 2 + var(--circle-size) / 2 - 8px);
+}
+
+.container:after {
+  right: 100%;
+}
+
+.container .item {
+  flex: 1;
+  position: relative;
+  padding-top: calc( 2 * var(--circle-size));
+}
+
+.container .item:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: 50%;
+  border: 2px solid #0E8784;
+}
+
+.title{
+  color:#FEFCF7;
+  font-style:bold;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 38px;
+  font-weight:900;
+  font-family: 'fraunces';
+  margin-right:35%;
+}
+
+.content{
+  margin-top: 42px;
+   line-height:26px;
+   color:#FEFCF7;
+   margin-right:35%;
+}
