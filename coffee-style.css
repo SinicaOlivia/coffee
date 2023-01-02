@@ -573,3 +573,224 @@ h1, h2, h3{
    color:#FEFCF7;
    margin-right:35%;
 }
+
+/* sectiunea de produse din subscribe-olivia///other version*/
+
+.list-preferences{
+  list-style-type: none;
+  font-family:'fraunces';
+  line-height:35px;
+  width:255px;
+  font-weight:900;
+  font-size:1.5em;
+  cursor: pointer;
+}
+
+.aline-boxone{
+  display:flex;
+  gap:60px;
+  flex-direction:row;
+  height:300px;
+  align-items:flex-start;
+}
+
+.checking{
+  display:flex;
+  text-align:left;
+  align-items:baseline;
+  margin:150px auto;
+}
+
+.list-preferences  span + span{
+  margin-left:25px;
+}
+
+.preffboxes{
+  margin-left: 125px;
+  text-align:left;
+  height:355px;
+  
+}
+
+.summ {
+  font-family:'fraunces';
+  font-weight:900;
+  font-size:2em;
+  margin-bottom:20px;
+  line-height:30px;
+  margin-top:20px;
+  color:#83888F;
+  cursor:pointer;
+  list-style: none;
+}
+
+#green-number{
+  color:#0E8784;
+}
+
+#grey-number{
+  color:#A2A2A2;
+}
+
+#trigger:active{
+  color:#333D4B;
+}
+
+#trigger2:active{
+  color:#333D4B;
+}
+
+#trigger3:active{
+  color:#333D4B;
+}
+
+#trigger4:active{
+  color:#333D4B;
+}
+
+#trigger5:active{
+  color:#333D4B;
+}
+
+#trigger:local-link{
+  color:#A2A2A2;
+}  
+
+a:link{
+  color:#A2A2A2;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#333D4B;
+}
+
+a:hover{
+  color:#83888F;
+}  
+
+a:active{
+  color:#333D4B;
+}  
+
+.bigboxone{
+  width:800px;
+  height:208px;
+  background-color:black;
+  color:white;
+  justify-content:center;
+  flex-direction:column;
+  margin-top:40px;
+  text-align:left;
+}
+
+.new-button{
+  display:flex;
+  align-self:flex-end;
+  position:relative;
+  right:275px;
+  top:60px;
+}
+
+.bigboxone >p{
+  font-family:'fraunces';
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 40px;
+  margin:8px 64px 27px 64px;
+}
+
+.bigboxone h3{
+  margin-top:27px;
+  margin-left:64px;
+  font-family:'Barlow';
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  text-transform: uppercase;
+  opacity:50%;
+}
+
+label{
+  margin-left:-32px;
+  width:228px;
+  height:250px;
+  color:#2C343E;
+  background-color:#F4F1EB;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+label:hover{
+  background-color:#FDD6BA;
+}
+
+input{
+  appearance: none;
+  margin-left:-30px;
+  opacity:0;
+}
+
+.quest-container .quest {
+  cursor: pointer;
+  position: relative;
+}
+
+.quest-container{
+  width:900px;
+}
+
+.quest:after{
+  content: "";
+  position:absolute;
+  right:0;
+  top:50%;
+  transform: translateY(-50%) rotate(0);
+  background-image: url("./all-images/arrow.png");
+  background-repeat:no-repeat;
+  background-size: contain;
+  display:block;
+  width:20px;
+  height:10px;
+  margin-right:90px;
+  transform: 0.3s ;
+}
+
+.quest-container[open] .quest:after{
+  transform: translateY(-50%) rotate(-180deg);
+}
+ 
+input:checked + label {
+  color:white;
+  background-color:var(--main-bg-color);
+}
+
+.label-title {
+  color:#333D4B;
+  text-align:left;
+  padding:32px 0 0px 28px;
+  font-family:'fraunces';
+  font-weight:900;
+  font-size:1.5em;
+  line-height:32px;
+}
+
+.label-description {
+  text-align:left;
+  color:#333D4B;
+  padding:0 28px 0 28px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+}
+  
+.quest-container input[type="radio"]:checked + label .label-title{
+  color: #ffffff;
+}
+
+.quest-container input[type="radio"]:checked + label .label-description {
+  color: #fefcf7;
+}
+
