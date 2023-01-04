@@ -333,6 +333,32 @@ h1, h2, h3{
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+  body{
+      margin: 0;
+  }
+  .commitment-container{
+      width: auto;
+      margin: 0 40px 0 39px;
+  }
+  .container-picture{
+      width: calc(100% - 69px);
+      height: 100%;
+      margin-left: 0;
+      margin-right: 69px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  .commitment-subtitle {
+      font-size: 32px;
+  }
+  .commitment-text {
+      font-size: 15px;
+      line-height: 25px;
+  }
+}
+
 /*section 3 about*/
 .section-2-about {
   width: 1280px;
@@ -883,4 +909,42 @@ margin-right:150px;
  color:#fdd6ba;
 }
 
+
+@media screen and (max-width: 768px) {
+  body{
+      margin: 0;
+  }
+
+  .subtitle{
+  margin-left: 40px;
+  }
+
+  .information-list{
+  width: auto;
+  margin: 0 40px;
+  display: flex;
+  }
+
+  .contact-info{
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 80px);
+  gap: 10px;
+  
+  }
+
+  .contact-info li {
+      flex-basis: calc((100% - 20px)/3);
+  }
+
+  .country-name{
+  font-size: 24px;
+  }
+
+  .adress{
+  line-height: 26px;
+  }
+
+
+}
 
